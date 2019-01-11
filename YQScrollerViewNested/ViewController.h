@@ -2,7 +2,7 @@
 //  ViewController.h
 //  YQScrollerViewNested
 //
-//  Created by GYQ on 2019/1/9.
+//  Created by GYQ on 2019/1/10.
 //  Copyright © 2019年 gyq.com. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
-
 @end
-

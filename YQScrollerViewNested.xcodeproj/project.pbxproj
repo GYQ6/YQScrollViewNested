@@ -8,24 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		D35C8C2021E58F420002C4C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C1F21E58F420002C4C5 /* AppDelegate.m */; };
-		D35C8C2321E58F420002C4C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C2221E58F420002C4C5 /* ViewController.m */; };
 		D35C8C2621E58F420002C4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35C8C2421E58F420002C4C5 /* Main.storyboard */; };
 		D35C8C2821E58F420002C4C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35C8C2721E58F420002C4C5 /* Assets.xcassets */; };
 		D35C8C2B21E58F420002C4C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35C8C2921E58F420002C4C5 /* LaunchScreen.storyboard */; };
 		D35C8C2E21E58F420002C4C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C2D21E58F420002C4C5 /* main.m */; };
+		D35C8C3721E591710002C4C5 /* YQSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C3521E591710002C4C5 /* YQSubController.m */; };
+		D35C8C3821E591710002C4C5 /* YQSubController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35C8C3621E591710002C4C5 /* YQSubController.xib */; };
+		D35C8C4B21E592A10002C4C5 /* TYTabPagerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C3C21E592A10002C4C5 /* TYTabPagerBar.m */; };
+		D35C8C4C21E592A10002C4C5 /* TYTabPagerBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C3E21E592A10002C4C5 /* TYTabPagerBarCell.m */; };
+		D35C8C4D21E592A10002C4C5 /* TYTabPagerBarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C4021E592A10002C4C5 /* TYTabPagerBarLayout.m */; };
+		D35C8C4E21E592A10002C4C5 /* TYTabPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C4221E592A10002C4C5 /* TYTabPagerController.m */; };
+		D35C8C4F21E592A10002C4C5 /* TYTabPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C4421E592A10002C4C5 /* TYTabPagerView.m */; };
+		D35C8C5021E592A10002C4C5 /* TYPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C4621E592A10002C4C5 /* TYPagerController.m */; };
+		D35C8C5121E592A10002C4C5 /* TYPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C4821E592A10002C4C5 /* TYPagerView.m */; };
+		D35C8C5221E592A10002C4C5 /* TYPagerViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C4A21E592A10002C4C5 /* TYPagerViewLayout.m */; };
+		D35C8C6B21E72E1E0002C4C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C6A21E72E1E0002C4C5 /* ViewController.m */; };
+		D35C8C7221E74A600002C4C5 /* UIViewController+YQProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C6E21E74A600002C4C5 /* UIViewController+YQProperty.m */; };
+		D35C8C7321E74A600002C4C5 /* YQScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C7021E74A600002C4C5 /* YQScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D35C8C1B21E58F420002C4C5 /* YQScrollerViewNested.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQScrollerViewNested.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35C8C1E21E58F420002C4C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D35C8C1F21E58F420002C4C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D35C8C2121E58F420002C4C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D35C8C2221E58F420002C4C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D35C8C2521E58F420002C4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35C8C2721E58F420002C4C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D35C8C2A21E58F420002C4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D35C8C2C21E58F420002C4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35C8C2D21E58F420002C4C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D35C8C3421E591710002C4C5 /* YQSubController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSubController.h; sourceTree = "<group>"; };
+		D35C8C3521E591710002C4C5 /* YQSubController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQSubController.m; sourceTree = "<group>"; };
+		D35C8C3621E591710002C4C5 /* YQSubController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQSubController.xib; sourceTree = "<group>"; };
+		D35C8C3B21E592A10002C4C5 /* TYTabPagerBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBar.h; sourceTree = "<group>"; };
+		D35C8C3C21E592A10002C4C5 /* TYTabPagerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBar.m; sourceTree = "<group>"; };
+		D35C8C3D21E592A10002C4C5 /* TYTabPagerBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBarCell.h; sourceTree = "<group>"; };
+		D35C8C3E21E592A10002C4C5 /* TYTabPagerBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBarCell.m; sourceTree = "<group>"; };
+		D35C8C3F21E592A10002C4C5 /* TYTabPagerBarLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBarLayout.h; sourceTree = "<group>"; };
+		D35C8C4021E592A10002C4C5 /* TYTabPagerBarLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBarLayout.m; sourceTree = "<group>"; };
+		D35C8C4121E592A10002C4C5 /* TYTabPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerController.h; sourceTree = "<group>"; };
+		D35C8C4221E592A10002C4C5 /* TYTabPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerController.m; sourceTree = "<group>"; };
+		D35C8C4321E592A10002C4C5 /* TYTabPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerView.h; sourceTree = "<group>"; };
+		D35C8C4421E592A10002C4C5 /* TYTabPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerView.m; sourceTree = "<group>"; };
+		D35C8C4521E592A10002C4C5 /* TYPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerController.h; sourceTree = "<group>"; };
+		D35C8C4621E592A10002C4C5 /* TYPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerController.m; sourceTree = "<group>"; };
+		D35C8C4721E592A10002C4C5 /* TYPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerView.h; sourceTree = "<group>"; };
+		D35C8C4821E592A10002C4C5 /* TYPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerView.m; sourceTree = "<group>"; };
+		D35C8C4921E592A10002C4C5 /* TYPagerViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerViewLayout.h; sourceTree = "<group>"; };
+		D35C8C4A21E592A10002C4C5 /* TYPagerViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerViewLayout.m; sourceTree = "<group>"; };
+		D35C8C6921E72E1E0002C4C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D35C8C6A21E72E1E0002C4C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D35C8C6D21E74A600002C4C5 /* UIViewController+YQProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YQProperty.h"; sourceTree = "<group>"; };
+		D35C8C6E21E74A600002C4C5 /* UIViewController+YQProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YQProperty.m"; sourceTree = "<group>"; };
+		D35C8C6F21E74A600002C4C5 /* YQScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQScrollView.h; sourceTree = "<group>"; };
+		D35C8C7021E74A600002C4C5 /* YQScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQScrollView.m; sourceTree = "<group>"; };
+		D35C8C7121E74A600002C4C5 /* YQSubControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQSubControllerDelegate.h; sourceTree = "<group>"; };
+		D35C8C7421E74A980002C4C5 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +97,13 @@
 			children = (
 				D35C8C1E21E58F420002C4C5 /* AppDelegate.h */,
 				D35C8C1F21E58F420002C4C5 /* AppDelegate.m */,
-				D35C8C2121E58F420002C4C5 /* ViewController.h */,
-				D35C8C2221E58F420002C4C5 /* ViewController.m */,
+				D35C8C6921E72E1E0002C4C5 /* ViewController.h */,
+				D35C8C6A21E72E1E0002C4C5 /* ViewController.m */,
+				D35C8C3421E591710002C4C5 /* YQSubController.h */,
+				D35C8C3521E591710002C4C5 /* YQSubController.m */,
+				D35C8C3621E591710002C4C5 /* YQSubController.xib */,
+				D35C8C6C21E74A600002C4C5 /* YQScrollView */,
+				D35C8C3921E592A10002C4C5 /* TYPagerController */,
 				D35C8C2421E58F420002C4C5 /* Main.storyboard */,
 				D35C8C2721E58F420002C4C5 /* Assets.xcassets */,
 				D35C8C2921E58F420002C4C5 /* LaunchScreen.storyboard */,
@@ -69,6 +111,50 @@
 				D35C8C2D21E58F420002C4C5 /* main.m */,
 			);
 			path = YQScrollerViewNested;
+			sourceTree = "<group>";
+		};
+		D35C8C3921E592A10002C4C5 /* TYPagerController */ = {
+			isa = PBXGroup;
+			children = (
+				D35C8C3A21E592A10002C4C5 /* TabPager */,
+				D35C8C4521E592A10002C4C5 /* TYPagerController.h */,
+				D35C8C4621E592A10002C4C5 /* TYPagerController.m */,
+				D35C8C4721E592A10002C4C5 /* TYPagerView.h */,
+				D35C8C4821E592A10002C4C5 /* TYPagerView.m */,
+				D35C8C4921E592A10002C4C5 /* TYPagerViewLayout.h */,
+				D35C8C4A21E592A10002C4C5 /* TYPagerViewLayout.m */,
+			);
+			path = TYPagerController;
+			sourceTree = "<group>";
+		};
+		D35C8C3A21E592A10002C4C5 /* TabPager */ = {
+			isa = PBXGroup;
+			children = (
+				D35C8C3B21E592A10002C4C5 /* TYTabPagerBar.h */,
+				D35C8C3C21E592A10002C4C5 /* TYTabPagerBar.m */,
+				D35C8C3D21E592A10002C4C5 /* TYTabPagerBarCell.h */,
+				D35C8C3E21E592A10002C4C5 /* TYTabPagerBarCell.m */,
+				D35C8C3F21E592A10002C4C5 /* TYTabPagerBarLayout.h */,
+				D35C8C4021E592A10002C4C5 /* TYTabPagerBarLayout.m */,
+				D35C8C4121E592A10002C4C5 /* TYTabPagerController.h */,
+				D35C8C4221E592A10002C4C5 /* TYTabPagerController.m */,
+				D35C8C4321E592A10002C4C5 /* TYTabPagerView.h */,
+				D35C8C4421E592A10002C4C5 /* TYTabPagerView.m */,
+			);
+			path = TabPager;
+			sourceTree = "<group>";
+		};
+		D35C8C6C21E74A600002C4C5 /* YQScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D35C8C6D21E74A600002C4C5 /* UIViewController+YQProperty.h */,
+				D35C8C6E21E74A600002C4C5 /* UIViewController+YQProperty.m */,
+				D35C8C6F21E74A600002C4C5 /* YQScrollView.h */,
+				D35C8C7021E74A600002C4C5 /* YQScrollView.m */,
+				D35C8C7121E74A600002C4C5 /* YQSubControllerDelegate.h */,
+				D35C8C7421E74A980002C4C5 /* Header.h */,
+			);
+			path = YQScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35C8C3821E591710002C4C5 /* YQSubController.xib in Resources */,
 				D35C8C2B21E58F420002C4C5 /* LaunchScreen.storyboard in Resources */,
 				D35C8C2821E58F420002C4C5 /* Assets.xcassets in Resources */,
 				D35C8C2621E58F420002C4C5 /* Main.storyboard in Resources */,
@@ -142,9 +229,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35C8C2321E58F420002C4C5 /* ViewController.m in Sources */,
+				D35C8C4E21E592A10002C4C5 /* TYTabPagerController.m in Sources */,
+				D35C8C4C21E592A10002C4C5 /* TYTabPagerBarCell.m in Sources */,
+				D35C8C6B21E72E1E0002C4C5 /* ViewController.m in Sources */,
+				D35C8C3721E591710002C4C5 /* YQSubController.m in Sources */,
+				D35C8C7221E74A600002C4C5 /* UIViewController+YQProperty.m in Sources */,
+				D35C8C5121E592A10002C4C5 /* TYPagerView.m in Sources */,
+				D35C8C5021E592A10002C4C5 /* TYPagerController.m in Sources */,
+				D35C8C4B21E592A10002C4C5 /* TYTabPagerBar.m in Sources */,
+				D35C8C4F21E592A10002C4C5 /* TYTabPagerView.m in Sources */,
 				D35C8C2E21E58F420002C4C5 /* main.m in Sources */,
 				D35C8C2021E58F420002C4C5 /* AppDelegate.m in Sources */,
+				D35C8C7321E74A600002C4C5 /* YQScrollView.m in Sources */,
+				D35C8C4D21E592A10002C4C5 /* TYTabPagerBarLayout.m in Sources */,
+				D35C8C5221E592A10002C4C5 /* TYPagerViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +378,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9W2XJGDALF;
+				GCC_PREFIX_HEADER = $SRCROOT/YQScrollerViewNested/YQScrollView/Header.h;
 				INFOPLIST_FILE = YQScrollerViewNested/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YQScrollerViewNested;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,7 +394,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9W2XJGDALF;
+				GCC_PREFIX_HEADER = $SRCROOT/YQScrollerViewNested/YQScrollView/Header.h;
 				INFOPLIST_FILE = YQScrollerViewNested/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YQScrollerViewNested;
 				PRODUCT_NAME = "$(TARGET_NAME)";
