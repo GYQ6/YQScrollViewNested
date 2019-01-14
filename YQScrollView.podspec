@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author             = { "郭宇琪" => "18738193980@163.com" }
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
-  s.source       = { :git => "git@github.com:gyg6/YQScrollViewNested.git", :tag => s.version.to_s }
+  s.source       = { :git => "git@github.com:gyg6/YQScrollViewNested.git", :tag => "1.0.0" }
   s.source_files  = "YQScrollView", "YQScrollView/**/*.{h,m}"
   s.public_header_files = "YQScrollView/**/*.h"
   s.requires_arc = true
