@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "git@github.com:gyg6/YQScrollViewNested.git", :tag => "1.0.0" }
-  s.source_files  = "YQScrollView", "YQScrollView/**/*.{h,m}"
-  s.public_header_files = "YQScrollView/**/*.h"
+  s.source_files  = "YQScrollView"
+  s.public_header_files = "YQScrollView/*.h"
   s.requires_arc = true
   s.dependency "TYPagerController", "~> 2.1.0"
 

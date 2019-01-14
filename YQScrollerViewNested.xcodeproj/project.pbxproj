@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3535F2721EC7550004A0939 /* UIViewController+YQProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D3535F2321EC7550004A0939 /* UIViewController+YQProperty.m */; };
+		D3535F2821EC7550004A0939 /* YQScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3535F2521EC7550004A0939 /* YQScrollView.m */; };
 		D35C8C2021E58F420002C4C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C1F21E58F420002C4C5 /* AppDelegate.m */; };
 		D35C8C2621E58F420002C4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35C8C2421E58F420002C4C5 /* Main.storyboard */; };
 		D35C8C2821E58F420002C4C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35C8C2721E58F420002C4C5 /* Assets.xcassets */; };
@@ -15,8 +17,6 @@
 		D35C8C3721E591710002C4C5 /* YQSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C3521E591710002C4C5 /* YQSubController.m */; };
 		D35C8C3821E591710002C4C5 /* YQSubController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35C8C3621E591710002C4C5 /* YQSubController.xib */; };
 		D35C8C6B21E72E1E0002C4C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C6A21E72E1E0002C4C5 /* ViewController.m */; };
-		D35C8C7221E74A600002C4C5 /* UIViewController+YQProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C6E21E74A600002C4C5 /* UIViewController+YQProperty.m */; };
-		D35C8C7321E74A600002C4C5 /* YQScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C7021E74A600002C4C5 /* YQScrollView.m */; };
 		EF45F026F0D19C04CA08BB4C /* libPods-YQScrollerViewNested.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C754A5A0AA86302E270824 /* libPods-YQScrollerViewNested.a */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +24,12 @@
 		2548DD1FA30FC6863EBB7AF2 /* Pods-YQScrollerViewNested.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQScrollerViewNested.release.xcconfig"; path = "Pods/Target Support Files/Pods-YQScrollerViewNested/Pods-YQScrollerViewNested.release.xcconfig"; sourceTree = "<group>"; };
 		43C754A5A0AA86302E270824 /* libPods-YQScrollerViewNested.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQScrollerViewNested.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1F3B3F9F30188B1A92CE72 /* Pods-YQScrollerViewNested.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQScrollerViewNested.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YQScrollerViewNested/Pods-YQScrollerViewNested.debug.xcconfig"; sourceTree = "<group>"; };
+		D3535F2121EC7550004A0939 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		D3535F2221EC7550004A0939 /* UIViewController+YQProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YQProperty.h"; sourceTree = "<group>"; };
+		D3535F2321EC7550004A0939 /* UIViewController+YQProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YQProperty.m"; sourceTree = "<group>"; };
+		D3535F2421EC7550004A0939 /* YQScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQScrollView.h; sourceTree = "<group>"; };
+		D3535F2521EC7550004A0939 /* YQScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQScrollView.m; sourceTree = "<group>"; };
+		D3535F2621EC7550004A0939 /* YQSubControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQSubControllerDelegate.h; sourceTree = "<group>"; };
 		D35C8C1B21E58F420002C4C5 /* YQScrollerViewNested.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQScrollerViewNested.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35C8C1E21E58F420002C4C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D35C8C1F21E58F420002C4C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,12 +43,6 @@
 		D35C8C3621E591710002C4C5 /* YQSubController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQSubController.xib; sourceTree = "<group>"; };
 		D35C8C6921E72E1E0002C4C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D35C8C6A21E72E1E0002C4C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D35C8C6D21E74A600002C4C5 /* UIViewController+YQProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YQProperty.h"; sourceTree = "<group>"; };
-		D35C8C6E21E74A600002C4C5 /* UIViewController+YQProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YQProperty.m"; sourceTree = "<group>"; };
-		D35C8C6F21E74A600002C4C5 /* YQScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQScrollView.h; sourceTree = "<group>"; };
-		D35C8C7021E74A600002C4C5 /* YQScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQScrollView.m; sourceTree = "<group>"; };
-		D35C8C7121E74A600002C4C5 /* YQSubControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQSubControllerDelegate.h; sourceTree = "<group>"; };
-		D35C8C7421E74A980002C4C5 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D3535F2021EC7550004A0939 /* YQScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D3535F2121EC7550004A0939 /* Header.h */,
+				D3535F2221EC7550004A0939 /* UIViewController+YQProperty.h */,
+				D3535F2321EC7550004A0939 /* UIViewController+YQProperty.m */,
+				D3535F2421EC7550004A0939 /* YQScrollView.h */,
+				D3535F2521EC7550004A0939 /* YQScrollView.m */,
+				D3535F2621EC7550004A0939 /* YQSubControllerDelegate.h */,
+			);
+			path = YQScrollView;
+			sourceTree = "<group>";
+		};
 		D35C8C1221E58F420002C4C5 = {
 			isa = PBXGroup;
 			children = (
+				D3535F2021EC7550004A0939 /* YQScrollView */,
 				D35C8C1D21E58F420002C4C5 /* YQScrollerViewNested */,
 				D35C8C1C21E58F420002C4C5 /* Products */,
 				0F320EFB23D0A1485916DA68 /* Pods */,
@@ -102,7 +116,6 @@
 				D35C8C3421E591710002C4C5 /* YQSubController.h */,
 				D35C8C3521E591710002C4C5 /* YQSubController.m */,
 				D35C8C3621E591710002C4C5 /* YQSubController.xib */,
-				D35C8C6C21E74A600002C4C5 /* YQScrollView */,
 				D35C8C2421E58F420002C4C5 /* Main.storyboard */,
 				D35C8C2721E58F420002C4C5 /* Assets.xcassets */,
 				D35C8C2921E58F420002C4C5 /* LaunchScreen.storyboard */,
@@ -110,19 +123,6 @@
 				D35C8C2D21E58F420002C4C5 /* main.m */,
 			);
 			path = YQScrollerViewNested;
-			sourceTree = "<group>";
-		};
-		D35C8C6C21E74A600002C4C5 /* YQScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				D35C8C6D21E74A600002C4C5 /* UIViewController+YQProperty.h */,
-				D35C8C6E21E74A600002C4C5 /* UIViewController+YQProperty.m */,
-				D35C8C6F21E74A600002C4C5 /* YQScrollView.h */,
-				D35C8C7021E74A600002C4C5 /* YQScrollView.m */,
-				D35C8C7121E74A600002C4C5 /* YQSubControllerDelegate.h */,
-				D35C8C7421E74A980002C4C5 /* Header.h */,
-			);
-			path = YQScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,12 +251,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3535F2721EC7550004A0939 /* UIViewController+YQProperty.m in Sources */,
 				D35C8C6B21E72E1E0002C4C5 /* ViewController.m in Sources */,
 				D35C8C3721E591710002C4C5 /* YQSubController.m in Sources */,
-				D35C8C7221E74A600002C4C5 /* UIViewController+YQProperty.m in Sources */,
+				D3535F2821EC7550004A0939 /* YQScrollView.m in Sources */,
 				D35C8C2E21E58F420002C4C5 /* main.m in Sources */,
 				D35C8C2021E58F420002C4C5 /* AppDelegate.m in Sources */,
-				D35C8C7321E74A600002C4C5 /* YQScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
