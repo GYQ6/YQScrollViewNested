@@ -7,8 +7,8 @@
 //
 
 #import "YQScrollView.h"
-#import "TYTabPagerBar.h"
-#import "TYPagerController.h"
+#import <TYTabPagerBar.h>
+#import <TYPagerController.h>
 #import "UIViewController+YQProperty.h"
 #import "YQSubControllerDelegate.h"
 

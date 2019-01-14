@@ -94,7 +94,6 @@ static const NSInteger kMemoryCountLimit = 16;
     BOOL        _isTapScrollMoved;
     CGFloat     _preOffsetX;
     NSInteger   _firstScrollToIndex;
-    BOOL        _didReloadData;
     BOOL        _didLayoutSubViews;
     
     struct {
@@ -160,7 +159,6 @@ static NSString * kScrollViewFrameObserverKey = @"scrollView.frame";
     _curIndex = -1;
     _preOffsetX = 0;
     _changeIndexWhenScrollProgress = 0.5;
-    _didReloadData = NO;
     _didLayoutSubViews = NO;
     _firstScrollToIndex = 0;
     _prefetchItemWillAddToSuperView = NO;
@@ -257,7 +255,6 @@ static NSString * kScrollViewFrameObserverKey = @"scrollView.frame";
 // update don't reset propertys(curIndex)
 - (void)updateData {
     [self clearMemoryCache];
-    _didReloadData = YES;
     _countOfPagerItems = [_dataSource numberOfItemsInPagerViewLayout];
     [self setNeedLayout];
 }
@@ -267,9 +264,6 @@ static NSString * kScrollViewFrameObserverKey = @"scrollView.frame";
  */
 - (void)scrollToItemAtIndex:(NSInteger)index animate:(BOOL)animate {
     if (index < 0 || index >= _countOfPagerItems) {
-        if (!_didReloadData && index >= 0) {
-            _firstScrollToIndex = index;
-        }
         return;
     }
     
@@ -497,7 +491,7 @@ static NSString * kScrollViewFrameObserverKey = @"scrollView.frame";
     if (!CGRectEqualToRect(view.frame, frame)) {
         view.frame = frame;
     }
-    if (view.superview && !_prefetchItemWillAddToSuperView) {
+    if (view.superview) {
         return;
     }
     
@@ -540,7 +534,7 @@ static NSString * kScrollViewFrameObserverKey = @"scrollView.frame";
                 if (_prefetchItemWillAddToSuperView && !NSLocationInRange(index, prefetchRange)) {
                     // remove prefetch item to superView
                     UIView *view = [self viewForItem:obj atIndex:index];
-                    if (view.superview == _scrollView && ![_visibleIndexItems objectForKey:key]) {
+                    if (view.superview == _scrollView) {
                         [view removeFromSuperview];
                     }
                 }
@@ -558,7 +552,7 @@ static NSString * kScrollViewFrameObserverKey = @"scrollView.frame";
         if (_prefetchItemWillAddToSuperView) {
             [_prefetchIndexItems enumerateKeysAndObjectsUsingBlock:^(NSNumber *key, id obj, BOOL *stop) {
                 UIView *view = [self viewForItem:obj atIndex:[key integerValue]];
-                if (view.superview == _scrollView && ![_visibleIndexItems objectForKey:key]) {
+                if (view.superview == _scrollView) {
                     [view removeFromSuperview];
                 }
             }];

@@ -200,7 +200,7 @@
     if (_pagerTabBar.countOfItems == 0) {
         return;
     }
-    void (^animateBlock)(void) = ^{
+    void (^animateBlock)() = ^{
         if (fromCell) {
             fromCell.titleLabel.font = _normalTextFont;
             fromCell.titleLabel.textColor = _normalTextColor;

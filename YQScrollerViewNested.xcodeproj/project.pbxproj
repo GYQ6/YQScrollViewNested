@@ -14,20 +14,16 @@
 		D35C8C2E21E58F420002C4C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C2D21E58F420002C4C5 /* main.m */; };
 		D35C8C3721E591710002C4C5 /* YQSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C3521E591710002C4C5 /* YQSubController.m */; };
 		D35C8C3821E591710002C4C5 /* YQSubController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35C8C3621E591710002C4C5 /* YQSubController.xib */; };
-		D35C8C4B21E592A10002C4C5 /* TYTabPagerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C3C21E592A10002C4C5 /* TYTabPagerBar.m */; };
-		D35C8C4C21E592A10002C4C5 /* TYTabPagerBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C3E21E592A10002C4C5 /* TYTabPagerBarCell.m */; };
-		D35C8C4D21E592A10002C4C5 /* TYTabPagerBarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C4021E592A10002C4C5 /* TYTabPagerBarLayout.m */; };
-		D35C8C4E21E592A10002C4C5 /* TYTabPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C4221E592A10002C4C5 /* TYTabPagerController.m */; };
-		D35C8C4F21E592A10002C4C5 /* TYTabPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C4421E592A10002C4C5 /* TYTabPagerView.m */; };
-		D35C8C5021E592A10002C4C5 /* TYPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C4621E592A10002C4C5 /* TYPagerController.m */; };
-		D35C8C5121E592A10002C4C5 /* TYPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C4821E592A10002C4C5 /* TYPagerView.m */; };
-		D35C8C5221E592A10002C4C5 /* TYPagerViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C4A21E592A10002C4C5 /* TYPagerViewLayout.m */; };
 		D35C8C6B21E72E1E0002C4C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C6A21E72E1E0002C4C5 /* ViewController.m */; };
 		D35C8C7221E74A600002C4C5 /* UIViewController+YQProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C6E21E74A600002C4C5 /* UIViewController+YQProperty.m */; };
 		D35C8C7321E74A600002C4C5 /* YQScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35C8C7021E74A600002C4C5 /* YQScrollView.m */; };
+		EF45F026F0D19C04CA08BB4C /* libPods-YQScrollerViewNested.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C754A5A0AA86302E270824 /* libPods-YQScrollerViewNested.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2548DD1FA30FC6863EBB7AF2 /* Pods-YQScrollerViewNested.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQScrollerViewNested.release.xcconfig"; path = "Pods/Target Support Files/Pods-YQScrollerViewNested/Pods-YQScrollerViewNested.release.xcconfig"; sourceTree = "<group>"; };
+		43C754A5A0AA86302E270824 /* libPods-YQScrollerViewNested.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQScrollerViewNested.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1F3B3F9F30188B1A92CE72 /* Pods-YQScrollerViewNested.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQScrollerViewNested.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YQScrollerViewNested/Pods-YQScrollerViewNested.debug.xcconfig"; sourceTree = "<group>"; };
 		D35C8C1B21E58F420002C4C5 /* YQScrollerViewNested.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQScrollerViewNested.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35C8C1E21E58F420002C4C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D35C8C1F21E58F420002C4C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,22 +35,6 @@
 		D35C8C3421E591710002C4C5 /* YQSubController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSubController.h; sourceTree = "<group>"; };
 		D35C8C3521E591710002C4C5 /* YQSubController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQSubController.m; sourceTree = "<group>"; };
 		D35C8C3621E591710002C4C5 /* YQSubController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQSubController.xib; sourceTree = "<group>"; };
-		D35C8C3B21E592A10002C4C5 /* TYTabPagerBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBar.h; sourceTree = "<group>"; };
-		D35C8C3C21E592A10002C4C5 /* TYTabPagerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBar.m; sourceTree = "<group>"; };
-		D35C8C3D21E592A10002C4C5 /* TYTabPagerBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBarCell.h; sourceTree = "<group>"; };
-		D35C8C3E21E592A10002C4C5 /* TYTabPagerBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBarCell.m; sourceTree = "<group>"; };
-		D35C8C3F21E592A10002C4C5 /* TYTabPagerBarLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBarLayout.h; sourceTree = "<group>"; };
-		D35C8C4021E592A10002C4C5 /* TYTabPagerBarLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBarLayout.m; sourceTree = "<group>"; };
-		D35C8C4121E592A10002C4C5 /* TYTabPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerController.h; sourceTree = "<group>"; };
-		D35C8C4221E592A10002C4C5 /* TYTabPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerController.m; sourceTree = "<group>"; };
-		D35C8C4321E592A10002C4C5 /* TYTabPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerView.h; sourceTree = "<group>"; };
-		D35C8C4421E592A10002C4C5 /* TYTabPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerView.m; sourceTree = "<group>"; };
-		D35C8C4521E592A10002C4C5 /* TYPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerController.h; sourceTree = "<group>"; };
-		D35C8C4621E592A10002C4C5 /* TYPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerController.m; sourceTree = "<group>"; };
-		D35C8C4721E592A10002C4C5 /* TYPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerView.h; sourceTree = "<group>"; };
-		D35C8C4821E592A10002C4C5 /* TYPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerView.m; sourceTree = "<group>"; };
-		D35C8C4921E592A10002C4C5 /* TYPagerViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerViewLayout.h; sourceTree = "<group>"; };
-		D35C8C4A21E592A10002C4C5 /* TYPagerViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerViewLayout.m; sourceTree = "<group>"; };
 		D35C8C6921E72E1E0002C4C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D35C8C6A21E72E1E0002C4C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D35C8C6D21E74A600002C4C5 /* UIViewController+YQProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YQProperty.h"; sourceTree = "<group>"; };
@@ -70,17 +50,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF45F026F0D19C04CA08BB4C /* libPods-YQScrollerViewNested.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F320EFB23D0A1485916DA68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B1F3B3F9F30188B1A92CE72 /* Pods-YQScrollerViewNested.debug.xcconfig */,
+				2548DD1FA30FC6863EBB7AF2 /* Pods-YQScrollerViewNested.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A78E52FE26479F5E01DAC570 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43C754A5A0AA86302E270824 /* libPods-YQScrollerViewNested.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D35C8C1221E58F420002C4C5 = {
 			isa = PBXGroup;
 			children = (
 				D35C8C1D21E58F420002C4C5 /* YQScrollerViewNested */,
 				D35C8C1C21E58F420002C4C5 /* Products */,
+				0F320EFB23D0A1485916DA68 /* Pods */,
+				A78E52FE26479F5E01DAC570 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +103,6 @@
 				D35C8C3521E591710002C4C5 /* YQSubController.m */,
 				D35C8C3621E591710002C4C5 /* YQSubController.xib */,
 				D35C8C6C21E74A600002C4C5 /* YQScrollView */,
-				D35C8C3921E592A10002C4C5 /* TYPagerController */,
 				D35C8C2421E58F420002C4C5 /* Main.storyboard */,
 				D35C8C2721E58F420002C4C5 /* Assets.xcassets */,
 				D35C8C2921E58F420002C4C5 /* LaunchScreen.storyboard */,
@@ -111,37 +110,6 @@
 				D35C8C2D21E58F420002C4C5 /* main.m */,
 			);
 			path = YQScrollerViewNested;
-			sourceTree = "<group>";
-		};
-		D35C8C3921E592A10002C4C5 /* TYPagerController */ = {
-			isa = PBXGroup;
-			children = (
-				D35C8C3A21E592A10002C4C5 /* TabPager */,
-				D35C8C4521E592A10002C4C5 /* TYPagerController.h */,
-				D35C8C4621E592A10002C4C5 /* TYPagerController.m */,
-				D35C8C4721E592A10002C4C5 /* TYPagerView.h */,
-				D35C8C4821E592A10002C4C5 /* TYPagerView.m */,
-				D35C8C4921E592A10002C4C5 /* TYPagerViewLayout.h */,
-				D35C8C4A21E592A10002C4C5 /* TYPagerViewLayout.m */,
-			);
-			path = TYPagerController;
-			sourceTree = "<group>";
-		};
-		D35C8C3A21E592A10002C4C5 /* TabPager */ = {
-			isa = PBXGroup;
-			children = (
-				D35C8C3B21E592A10002C4C5 /* TYTabPagerBar.h */,
-				D35C8C3C21E592A10002C4C5 /* TYTabPagerBar.m */,
-				D35C8C3D21E592A10002C4C5 /* TYTabPagerBarCell.h */,
-				D35C8C3E21E592A10002C4C5 /* TYTabPagerBarCell.m */,
-				D35C8C3F21E592A10002C4C5 /* TYTabPagerBarLayout.h */,
-				D35C8C4021E592A10002C4C5 /* TYTabPagerBarLayout.m */,
-				D35C8C4121E592A10002C4C5 /* TYTabPagerController.h */,
-				D35C8C4221E592A10002C4C5 /* TYTabPagerController.m */,
-				D35C8C4321E592A10002C4C5 /* TYTabPagerView.h */,
-				D35C8C4421E592A10002C4C5 /* TYTabPagerView.m */,
-			);
-			path = TabPager;
 			sourceTree = "<group>";
 		};
 		D35C8C6C21E74A600002C4C5 /* YQScrollView */ = {
@@ -164,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35C8C3121E58F420002C4C5 /* Build configuration list for PBXNativeTarget "YQScrollerViewNested" */;
 			buildPhases = (
+				0A2468922D4800D1C82281CA /* [CP] Check Pods Manifest.lock */,
 				D35C8C1721E58F420002C4C5 /* Sources */,
 				D35C8C1821E58F420002C4C5 /* Frameworks */,
 				D35C8C1921E58F420002C4C5 /* Resources */,
+				635F72DEC4AC3034E132801A /* [CP] Embed Pods Frameworks */,
+				EE4BBA69CEEE0EE41B269048 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,25 +195,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A2468922D4800D1C82281CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YQScrollerViewNested-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		635F72DEC4AC3034E132801A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YQScrollerViewNested/Pods-YQScrollerViewNested-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE4BBA69CEEE0EE41B269048 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YQScrollerViewNested/Pods-YQScrollerViewNested-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D35C8C1721E58F420002C4C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35C8C4E21E592A10002C4C5 /* TYTabPagerController.m in Sources */,
-				D35C8C4C21E592A10002C4C5 /* TYTabPagerBarCell.m in Sources */,
 				D35C8C6B21E72E1E0002C4C5 /* ViewController.m in Sources */,
 				D35C8C3721E591710002C4C5 /* YQSubController.m in Sources */,
 				D35C8C7221E74A600002C4C5 /* UIViewController+YQProperty.m in Sources */,
-				D35C8C5121E592A10002C4C5 /* TYPagerView.m in Sources */,
-				D35C8C5021E592A10002C4C5 /* TYPagerController.m in Sources */,
-				D35C8C4B21E592A10002C4C5 /* TYTabPagerBar.m in Sources */,
-				D35C8C4F21E592A10002C4C5 /* TYTabPagerView.m in Sources */,
 				D35C8C2E21E58F420002C4C5 /* main.m in Sources */,
 				D35C8C2021E58F420002C4C5 /* AppDelegate.m in Sources */,
 				D35C8C7321E74A600002C4C5 /* YQScrollView.m in Sources */,
-				D35C8C4D21E592A10002C4C5 /* TYTabPagerBarLayout.m in Sources */,
-				D35C8C5221E592A10002C4C5 /* TYPagerViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +388,7 @@
 		};
 		D35C8C3221E58F420002C4C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1F3B3F9F30188B1A92CE72 /* Pods-YQScrollerViewNested.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -390,6 +405,7 @@
 		};
 		D35C8C3321E58F420002C4C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2548DD1FA30FC6863EBB7AF2 /* Pods-YQScrollerViewNested.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

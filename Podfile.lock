@@ -1,0 +1,12 @@
+PODS:
+  - TYPagerController (2.1.0)
+
+DEPENDENCIES:
+  - TYPagerController (~> 2.1.0)
+
+SPEC CHECKSUMS:
+  TYPagerController: 4b9dd419853e299f4390107d4c67de6949a52014
+
+PODFILE CHECKSUM: ab4bbc89206ac6f36cce4aa7ff94ac63df1e48e2
+
+COCOAPODS: 1.3.1

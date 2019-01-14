@@ -72,11 +72,7 @@
     collectionView.showsHorizontalScrollIndicator = NO;
     collectionView.showsVerticalScrollIndicator = NO;
     if ([collectionView respondsToSelector:@selector(setPrefetchingEnabled:)]) {
-        if (@available(iOS 10.0, *)) {
-            collectionView.prefetchingEnabled = NO;
-        } else {
-            // Fallback on earlier versions
-        }
+        collectionView.prefetchingEnabled = NO;
     }
     collectionView.delegate = self;
     collectionView.dataSource = self;

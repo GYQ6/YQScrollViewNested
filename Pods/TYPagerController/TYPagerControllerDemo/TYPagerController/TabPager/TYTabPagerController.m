@@ -111,6 +111,7 @@
 - (TYPagerController *)pagerController {
     if (!_pagerController) {
         _pagerController = [[TYPagerController alloc]init];
+        _pagerController.layout.prefetchItemCount = 1;
     }
     return _pagerController;
 }

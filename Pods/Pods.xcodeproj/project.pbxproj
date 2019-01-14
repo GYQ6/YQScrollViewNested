@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1257555185BC8F3E0C320A72293BC241 /* TYPagerViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7272BD436205417E53706A389E78D119 /* TYPagerViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15B028429D19963E8AC600C40E87A669 /* TYPagerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF176334FCA7C93FAC80E9F560B738 /* TYPagerController-dummy.m */; };
+		28624C36B4272ECF05A3409593980C8C /* Pods-YQScrollerViewNested-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 536BA1C4790E7F01E41ACAAB245A2C42 /* Pods-YQScrollerViewNested-dummy.m */; };
+		43ED929D81574C17F50923557F3203FE /* TYPagerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B5FC717BF9A0641500078FB1DEC946 /* TYPagerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		485B70399344E92D294AF159F33BB239 /* TYTabPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA07D838A43E84E66D5BCBFF3E6085AB /* TYTabPagerView.m */; };
+		53B393F2081E1C055869F471C76E1903 /* TYTabPagerBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 333C6267EA7AA6654DE6F8FF9A9C491E /* TYTabPagerBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64865BED9FAC32683FA57B672A141861 /* TYPagerViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B605C9AA5FF739EF243165086C5270 /* TYPagerViewLayout.m */; };
+		68FC8252C71C566CABB40200118C0D4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6EA215B1CC99D6D64B106594946484D6 /* TYTabPagerBarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD5A53C8B111007079105038985F80F /* TYTabPagerBarLayout.m */; };
+		72BF7E931740661DEB4665AB896F0823 /* TYTabPagerBarLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ADC6917055FAF30BA06E3EFED5648E8 /* TYTabPagerBarLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79985CE335C611CA8C4AB63736B94D12 /* TYPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CE98FFF6457BD26AB0AA90E38FE872 /* TYPagerView.m */; };
+		7B12BD7E757BEAE1166C33C44A328A60 /* TYTabPagerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FA57A176B11BB85543F2BEF82E49985E /* TYTabPagerBar.m */; };
+		7B3110A3BA8BCA6747D0CD51B2CFD0F5 /* TYPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 854CFFE950A7DA7A865DCAA03F94908B /* TYPagerController.m */; };
+		864CA7795292DE4A944BF3F23477C2C1 /* TYTabPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CD87D96F472E1E2522203247D1DB13 /* TYTabPagerController.m */; };
+		878BE4B286E32A21A102093F02AC93A8 /* TYPagerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 914C7D7CFB24ACAD1A9FDE02C764496C /* TYPagerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B307E306843E112A03AB07D46FB0BF84 /* TYTabPagerBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E3BF0548743882474B7A706C2F8C40 /* TYTabPagerBarCell.m */; };
+		B5AB89C2B3400DF461B1B1EBFDEA349C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CEC3EE6AABF5074F34A2018A60C72A34 /* TYTabPagerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D7362AEC655E76C8A9B78D3CF97ECB /* TYTabPagerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA379D1D95E3B23734BDA032F9854F29 /* TYTabPagerController.h in Headers */ = {isa = PBXBuildFile; fileRef = DE35CFE58DCD2D7F721B748A778EE517 /* TYTabPagerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFAB1ECC094329E067625C87C66522A /* TYTabPagerBarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 68281B0F204FF1608FE02ABF52B6EAF6 /* TYTabPagerBarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6B6F8F4FCEE9E70B47F8C2EC8642BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9256FD3B80FB5BABA6F9CEA1892CDA5;
+			remoteInfo = TYPagerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C9185306895B74DDC5A29FFDC2D9B9A /* libPods-YQScrollerViewNested.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YQScrollerViewNested.a"; path = "libPods-YQScrollerViewNested.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BBADF39CB80DE07971B594ED1F20DB /* Pods-YQScrollerViewNested.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQScrollerViewNested.release.xcconfig"; sourceTree = "<group>"; };
+		25C5953FD0D484896D0D99F654C1315B /* TYPagerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYPagerController.xcconfig; sourceTree = "<group>"; };
+		262CD7B5E4D935C0EFD4821B4BD0E4FC /* Pods-YQScrollerViewNested-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQScrollerViewNested-frameworks.sh"; sourceTree = "<group>"; };
+		333C6267EA7AA6654DE6F8FF9A9C491E /* TYTabPagerBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYTabPagerBar.h; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBar.h; sourceTree = "<group>"; };
+		536BA1C4790E7F01E41ACAAB245A2C42 /* Pods-YQScrollerViewNested-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQScrollerViewNested-dummy.m"; sourceTree = "<group>"; };
+		656B2E6BF211E36EC3E3E9C77F42DC68 /* Pods-YQScrollerViewNested-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQScrollerViewNested-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66B5FC717BF9A0641500078FB1DEC946 /* TYPagerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYPagerView.h; path = TYPagerControllerDemo/TYPagerController/TYPagerView.h; sourceTree = "<group>"; };
+		68281B0F204FF1608FE02ABF52B6EAF6 /* TYTabPagerBarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYTabPagerBarCell.h; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarCell.h; sourceTree = "<group>"; };
+		7272BD436205417E53706A389E78D119 /* TYPagerViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYPagerViewLayout.h; path = TYPagerControllerDemo/TYPagerController/TYPagerViewLayout.h; sourceTree = "<group>"; };
+		854CFFE950A7DA7A865DCAA03F94908B /* TYPagerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYPagerController.m; path = TYPagerControllerDemo/TYPagerController/TYPagerController.m; sourceTree = "<group>"; };
+		8D19E9095F84875D5857B25E73B20ED3 /* TYPagerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYPagerController-prefix.pch"; sourceTree = "<group>"; };
+		914C7D7CFB24ACAD1A9FDE02C764496C /* TYPagerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYPagerController.h; path = TYPagerControllerDemo/TYPagerController/TYPagerController.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E3BF0548743882474B7A706C2F8C40 /* TYTabPagerBarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYTabPagerBarCell.m; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarCell.m; sourceTree = "<group>"; };
+		9ADC6917055FAF30BA06E3EFED5648E8 /* TYTabPagerBarLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYTabPagerBarLayout.h; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarLayout.h; sourceTree = "<group>"; };
+		9BEE4145C7A171AF1B289786E564715A /* Pods-YQScrollerViewNested.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQScrollerViewNested.debug.xcconfig"; sourceTree = "<group>"; };
+		B8C523D46C9719FEEC6B607447939469 /* libTYPagerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTYPagerController.a; path = libTYPagerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADF176334FCA7C93FAC80E9F560B738 /* TYPagerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYPagerController-dummy.m"; sourceTree = "<group>"; };
+		D6D7362AEC655E76C8A9B78D3CF97ECB /* TYTabPagerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYTabPagerView.h; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerView.h; sourceTree = "<group>"; };
+		D9CD87D96F472E1E2522203247D1DB13 /* TYTabPagerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYTabPagerController.m; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerController.m; sourceTree = "<group>"; };
+		DA07D838A43E84E66D5BCBFF3E6085AB /* TYTabPagerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYTabPagerView.m; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerView.m; sourceTree = "<group>"; };
+		DE35CFE58DCD2D7F721B748A778EE517 /* TYTabPagerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYTabPagerController.h; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerController.h; sourceTree = "<group>"; };
+		E0ABFB45DAF2CA4F2CE4B243FF76E056 /* Pods-YQScrollerViewNested-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQScrollerViewNested-acknowledgements.plist"; sourceTree = "<group>"; };
+		E66D72425A4D5DFA9007995C63505DE7 /* Pods-YQScrollerViewNested-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQScrollerViewNested-resources.sh"; sourceTree = "<group>"; };
+		EBD5A53C8B111007079105038985F80F /* TYTabPagerBarLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYTabPagerBarLayout.m; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBarLayout.m; sourceTree = "<group>"; };
+		F0CE98FFF6457BD26AB0AA90E38FE872 /* TYPagerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYPagerView.m; path = TYPagerControllerDemo/TYPagerController/TYPagerView.m; sourceTree = "<group>"; };
+		F9B605C9AA5FF739EF243165086C5270 /* TYPagerViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYPagerViewLayout.m; path = TYPagerControllerDemo/TYPagerController/TYPagerViewLayout.m; sourceTree = "<group>"; };
+		FA57A176B11BB85543F2BEF82E49985E /* TYTabPagerBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYTabPagerBar.m; path = TYPagerControllerDemo/TYPagerController/TabPager/TYTabPagerBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1652B6C8E95BA71EC0872B7ED558E069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AB89C2B3400DF461B1B1EBFDEA349C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6330AF04F4A9E51FDB0BD99DCCC8912E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FC8252C71C566CABB40200118C0D4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DDE62B4EDDC06E218FEED7105AFC7AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25C5953FD0D484896D0D99F654C1315B /* TYPagerController.xcconfig */,
+				BADF176334FCA7C93FAC80E9F560B738 /* TYPagerController-dummy.m */,
+				8D19E9095F84875D5857B25E73B20ED3 /* TYPagerController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TYPagerController";
+			sourceTree = "<group>";
+		};
+		67432FD8E06273DFAA66C39D8DFA1EFE /* Pods-YQScrollerViewNested */ = {
+			isa = PBXGroup;
+			children = (
+				656B2E6BF211E36EC3E3E9C77F42DC68 /* Pods-YQScrollerViewNested-acknowledgements.markdown */,
+				E0ABFB45DAF2CA4F2CE4B243FF76E056 /* Pods-YQScrollerViewNested-acknowledgements.plist */,
+				536BA1C4790E7F01E41ACAAB245A2C42 /* Pods-YQScrollerViewNested-dummy.m */,
+				262CD7B5E4D935C0EFD4821B4BD0E4FC /* Pods-YQScrollerViewNested-frameworks.sh */,
+				E66D72425A4D5DFA9007995C63505DE7 /* Pods-YQScrollerViewNested-resources.sh */,
+				9BEE4145C7A171AF1B289786E564715A /* Pods-YQScrollerViewNested.debug.xcconfig */,
+				22BBADF39CB80DE07971B594ED1F20DB /* Pods-YQScrollerViewNested.release.xcconfig */,
+			);
+			name = "Pods-YQScrollerViewNested";
+			path = "Target Support Files/Pods-YQScrollerViewNested";
+			sourceTree = "<group>";
+		};
+		7646D185CF69FFFAA73DA61696DA331B /* TYPagerController */ = {
+			isa = PBXGroup;
+			children = (
+				914C7D7CFB24ACAD1A9FDE02C764496C /* TYPagerController.h */,
+				854CFFE950A7DA7A865DCAA03F94908B /* TYPagerController.m */,
+				66B5FC717BF9A0641500078FB1DEC946 /* TYPagerView.h */,
+				F0CE98FFF6457BD26AB0AA90E38FE872 /* TYPagerView.m */,
+				7272BD436205417E53706A389E78D119 /* TYPagerViewLayout.h */,
+				F9B605C9AA5FF739EF243165086C5270 /* TYPagerViewLayout.m */,
+				333C6267EA7AA6654DE6F8FF9A9C491E /* TYTabPagerBar.h */,
+				FA57A176B11BB85543F2BEF82E49985E /* TYTabPagerBar.m */,
+				68281B0F204FF1608FE02ABF52B6EAF6 /* TYTabPagerBarCell.h */,
+				94E3BF0548743882474B7A706C2F8C40 /* TYTabPagerBarCell.m */,
+				9ADC6917055FAF30BA06E3EFED5648E8 /* TYTabPagerBarLayout.h */,
+				EBD5A53C8B111007079105038985F80F /* TYTabPagerBarLayout.m */,
+				DE35CFE58DCD2D7F721B748A778EE517 /* TYTabPagerController.h */,
+				D9CD87D96F472E1E2522203247D1DB13 /* TYTabPagerController.m */,
+				D6D7362AEC655E76C8A9B78D3CF97ECB /* TYTabPagerView.h */,
+				DA07D838A43E84E66D5BCBFF3E6085AB /* TYTabPagerView.m */,
+				2DDE62B4EDDC06E218FEED7105AFC7AB /* Support Files */,
+			);
+			name = TYPagerController;
+			path = TYPagerController;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C96BE9D6811822850D22C2CBDD384BB0 /* Pods */,
+				DC9C5D50C68C8E8DEFAAA6BCC64964BA /* Products */,
+				9E230DFFBD5634075B040A96207B4630 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E230DFFBD5634075B040A96207B4630 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67432FD8E06273DFAA66C39D8DFA1EFE /* Pods-YQScrollerViewNested */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C96BE9D6811822850D22C2CBDD384BB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7646D185CF69FFFAA73DA61696DA331B /* TYPagerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC9C5D50C68C8E8DEFAAA6BCC64964BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C9185306895B74DDC5A29FFDC2D9B9A /* libPods-YQScrollerViewNested.a */,
+				B8C523D46C9719FEEC6B607447939469 /* libTYPagerController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17736309E7CAD42CE1F25C04D2ED378B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878BE4B286E32A21A102093F02AC93A8 /* TYPagerController.h in Headers */,
+				43ED929D81574C17F50923557F3203FE /* TYPagerView.h in Headers */,
+				1257555185BC8F3E0C320A72293BC241 /* TYPagerViewLayout.h in Headers */,
+				53B393F2081E1C055869F471C76E1903 /* TYTabPagerBar.h in Headers */,
+				FFFAB1ECC094329E067625C87C66522A /* TYTabPagerBarCell.h in Headers */,
+				72BF7E931740661DEB4665AB896F0823 /* TYTabPagerBarLayout.h in Headers */,
+				EA379D1D95E3B23734BDA032F9854F29 /* TYTabPagerController.h in Headers */,
+				CEC3EE6AABF5074F34A2018A60C72A34 /* TYTabPagerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B9256FD3B80FB5BABA6F9CEA1892CDA5 /* TYPagerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454509715AB30A1014D3DF19D9321CFD /* Build configuration list for PBXNativeTarget "TYPagerController" */;
+			buildPhases = (
+				0EF7D3C79B2718A0DF9275ABFC0389E2 /* Sources */,
+				6330AF04F4A9E51FDB0BD99DCCC8912E /* Frameworks */,
+				17736309E7CAD42CE1F25C04D2ED378B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYPagerController;
+			productName = TYPagerController;
+			productReference = B8C523D46C9719FEEC6B607447939469 /* libTYPagerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F56972439160880BC0707630CBDAADA4 /* Pods-YQScrollerViewNested */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCEFD65377B026A902F942B844AA48B /* Build configuration list for PBXNativeTarget "Pods-YQScrollerViewNested" */;
+			buildPhases = (
+				5C16437CD72A90B305103C0A4AADA845 /* Sources */,
+				1652B6C8E95BA71EC0872B7ED558E069 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0748029D59B086387BF40C47AEAF37D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-YQScrollerViewNested";
+			productName = "Pods-YQScrollerViewNested";
+			productReference = 1C9185306895B74DDC5A29FFDC2D9B9A /* libPods-YQScrollerViewNested.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DC9C5D50C68C8E8DEFAAA6BCC64964BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56972439160880BC0707630CBDAADA4 /* Pods-YQScrollerViewNested */,
+				B9256FD3B80FB5BABA6F9CEA1892CDA5 /* TYPagerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EF7D3C79B2718A0DF9275ABFC0389E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B028429D19963E8AC600C40E87A669 /* TYPagerController-dummy.m in Sources */,
+				7B3110A3BA8BCA6747D0CD51B2CFD0F5 /* TYPagerController.m in Sources */,
+				79985CE335C611CA8C4AB63736B94D12 /* TYPagerView.m in Sources */,
+				64865BED9FAC32683FA57B672A141861 /* TYPagerViewLayout.m in Sources */,
+				7B12BD7E757BEAE1166C33C44A328A60 /* TYTabPagerBar.m in Sources */,
+				B307E306843E112A03AB07D46FB0BF84 /* TYTabPagerBarCell.m in Sources */,
+				6EA215B1CC99D6D64B106594946484D6 /* TYTabPagerBarLayout.m in Sources */,
+				864CA7795292DE4A944BF3F23477C2C1 /* TYTabPagerController.m in Sources */,
+				485B70399344E92D294AF159F33BB239 /* TYTabPagerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C16437CD72A90B305103C0A4AADA845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28624C36B4272ECF05A3409593980C8C /* Pods-YQScrollerViewNested-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0748029D59B086387BF40C47AEAF37D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYPagerController;
+			target = B9256FD3B80FB5BABA6F9CEA1892CDA5 /* TYPagerController */;
+			targetProxy = D6B6F8F4FCEE9E70B47F8C2EC8642BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22FAAD968CDB6D88D2D9BFA3372C9D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BBADF39CB80DE07971B594ED1F20DB /* Pods-YQScrollerViewNested.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60AC794FBB8ABDAA40FD68A19DC6DCF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C5953FD0D484896D0D99F654C1315B /* TYPagerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TYPagerController/TYPagerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62BC16CE2C5793500C90DB104AAEB3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C5953FD0D484896D0D99F654C1315B /* TYPagerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TYPagerController/TYPagerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DF9AA5471BB88D7FEBAA37B46572D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BEE4145C7A171AF1B289786E564715A /* Pods-YQScrollerViewNested.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454509715AB30A1014D3DF19D9321CFD /* Build configuration list for PBXNativeTarget "TYPagerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BC16CE2C5793500C90DB104AAEB3D9 /* Debug */,
+				60AC794FBB8ABDAA40FD68A19DC6DCF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCEFD65377B026A902F942B844AA48B /* Build configuration list for PBXNativeTarget "Pods-YQScrollerViewNested" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF9AA5471BB88D7FEBAA37B46572D9C /* Debug */,
+				22FAAD968CDB6D88D2D9BFA3372C9D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
