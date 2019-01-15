@@ -12,6 +12,7 @@
 
 #define SCREEN_WIDTH      [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT     [UIScreen mainScreen].bounds.size.height
-
+#import <TYTabPagerBar.h>
+#import <TYPagerController.h>
 
 #endif /* Header_h */
