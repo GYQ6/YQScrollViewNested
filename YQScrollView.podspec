@@ -19,9 +19,9 @@ s.platform = :ios, "8.0"
 s.source = { :git => "git@github.com:gyg6/YQScrollViewNested.git", :tag => s.version.to_s }
 # 如果使用pod 需要导入哪些资源
 s.source_files = "YQScrollView/**/*.{h,m}"
+s.public_header_files = "YQScrollView/Header.h"
 # s.resources = "**/*/*.bundle"
 # 框架是否使用的ARC
 s.requires_arc = true
 s.dependency "TYPagerController", "~> 2.1.0"
-s.frameworks = "Foundation","UIKit","runtime"
 end
