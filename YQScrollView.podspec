@@ -3,11 +3,9 @@ Pod::Spec.new do |s|
 # 名称 使用的时候pod search [name]
 s.name = "YQScrollView"
 # 代码库的版本
-s.version = "v1.0.0"
+s.version = "1.0.0"
 # 简介
 s.summary = "scrollView 互相嵌套 实现平滑滚动 解决手势冲突 丝滑般顺溜"
-s.description  = <<-DESC
-                   DESC
 # 主页
 s.homepage = "https://github.com/gyg6/YQScrollViewNested"
 # 许可证书类型，要和仓库的LICENSE 的类型一致
