@@ -23,4 +23,5 @@ s.source_files = "YQScrollView/**/*.{h,m}"
 # 框架是否使用的ARC
 s.requires_arc = true
 s.dependency "TYPagerController", "~> 2.1.0"
+s.frameworks = "Foundation","UIKit","runtime"
 end
