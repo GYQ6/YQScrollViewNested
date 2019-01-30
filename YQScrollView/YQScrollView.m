@@ -9,6 +9,8 @@
 #import "YQScrollView.h"
 #import "UIViewController+YQProperty.h"
 #import "YQSubControllerDelegate.h"
+#import <TYTabPagerBar.h>
+#import <TYPagerController.h>
 
 @interface YQScrollView ()<
 UIGestureRecognizerDelegate,
