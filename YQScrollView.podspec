@@ -24,5 +24,4 @@ s.source_files = "YQScrollView/**/*.{h,m}"
 s.requires_arc = true
 s.dependency "TYPagerController", "~> 2.1.0"
 s.public_header_files = "YQScrollView/Header.h"
-s.source_files = "YQScrollView/Header.h"
 end
